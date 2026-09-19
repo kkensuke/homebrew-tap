@@ -2,8 +2,8 @@
 class Slink < Formula
   desc "A symbolic-link management CLI for macOS"
   homepage "https://github.com/kkensuke/slink"
-  url "https://github.com/kkensuke/slink/archive/refs/tags/v0.2.4.tar.gz"
-  sha256 "2da4b084ae7ed1ad38846faa5163d2c4a7b89412e08f96e4a6530c76edaa2ea0"
+  url "https://github.com/kkensuke/slink/archive/refs/tags/v0.2.5.tar.gz"
+  sha256 "a9c0471353c605ff7dcc247a885c9f6c37a9ef54f10c0cceb16efeced6fcb42e"
   license "MIT"
 
   depends_on "rust" => :build
