@@ -4,8 +4,8 @@ class Yttext < Formula
 
   desc "Turn YouTube captions into reusable transcripts and summaries"
   homepage "https://github.com/kkensuke/yttext"
-  url "https://github.com/kkensuke/yttext/archive/refs/tags/v0.5.3.tar.gz"
-  sha256 "b91e9cf2a2701bf46d30f0e59868cbe76642b7f1224576c748d03c98c7a67c3e"
+  url "https://github.com/kkensuke/yttext/archive/refs/tags/v0.5.4.tar.gz"
+  sha256 "bb62cdf88ab7d3ab0050b9c23b8ddf2b38ecc1e5b231d23757bfbb0a42381417"
   license "MIT"
 
   depends_on "pydantic" => :no_linkage
