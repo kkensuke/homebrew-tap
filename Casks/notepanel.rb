@@ -13,9 +13,8 @@ cask "notepanel" do
   app "notepanel.app"
 
   # The app is signed ad hoc, not notarized, so Gatekeeper would block it while it is quarantined.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/notepanel.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/notepanel.app"]
   end
 
   uninstall quit: "io.github.kkensuke.notepanel"
