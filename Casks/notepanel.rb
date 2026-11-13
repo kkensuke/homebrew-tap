@@ -8,7 +8,7 @@ cask "notepanel" do
   desc "Floating notepad that opens over any app"
   homepage "https://github.com/kkensuke/notepanel"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "notepanel.app"
 
